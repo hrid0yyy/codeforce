@@ -1,1 +1,0 @@
-{"name":"Local: Card_game","url":"d:\\CodeForce\\Card_game.cpp","tests":[{"id":1745856682507,"input":"8\n2\nAB\n2\nBA\n4\nABAB\n4\nBABA\n3\nBAA\n5\nAAAAB\n5\nBAAAB\n6\nBBBAAA","output":"Alice\nBob\nBob\nBob\nAlice\nAlice\nBob\nAlice\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeForce\\Card_game.cpp","group":"local","local":true}
