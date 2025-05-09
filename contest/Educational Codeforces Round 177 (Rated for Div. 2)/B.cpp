@@ -2,6 +2,7 @@
 using namespace std;
 signed main()
 {
+    // TLE
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -25,8 +26,8 @@ signed main()
         bool kam_sharse = false;
         for(int i = n - 1; i >= 0; --i ){
             if(kam_sharse){
-                l += k;
-                continue;
+                l += (k * (i+1));
+                break;
             }
             int skip = 0;
             build_up_sum += a[i];
