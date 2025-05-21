@@ -1,30 +1,28 @@
 #include <bits/stdc++.h>
+
 using namespace std;
-#define yes cout << "YES\n"
-#define no cout << "NO\n"
-signed main()
+#define yes cout << "YES\n";
+#define no cout << "NO\n";
+void solve()
 {
-    ios_base::sync_with_stdio(false); 
-    cin.tie(0);                       
-    cout.tie(0);
-    int t;    
-    cin >> t; 
+    int n, m, p, q;
+    cin >> n >> m >> p >> q;
+    if (n % p == 0 && (n / p) * q != m){
+        no;
+    }
+    else {
+        yes;
+    }
+     
+}
+
+int main()
+{
+    ios::sync_with_stdio(0), cin.tie(0);
+    int t = 1;
+    cin >> t;
     while (t--)
     {
-        int n,m,p,q;
-        cin >> n >> m >> p >> q;
-        if(n%2 == 0){
-            int pair = n/p;
-            if(pair*q == m){
-                yes;
-            }
-            else{
-                no;
-            }
-        }
-        else{
-           int pair = ceil(n/p);
-           cout << pair << endl;
-        }
+        solve();
     }
 }
