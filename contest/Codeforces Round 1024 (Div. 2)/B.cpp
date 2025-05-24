@@ -29,13 +29,13 @@ int main()
             ans[pairs[i].second] = 1;
 
         if (ans[0])
-            {
-                yes;
-            }
+        {
+            yes;
+        }
         else
-            {
-                no;
-            }
+        {
+            no;
+        }
     }
 
     return 0;
